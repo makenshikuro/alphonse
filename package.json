@@ -1,0 +1,44 @@
+{
+  "name": "alphonse",
+  "version": "1.0.0",
+  "description": "test generator from openApi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makenshikuro/alphonse.git"
+  },
+  "bin": {
+    "hello": "./bin/index.js"
+  },
+  "keywords": [
+    "openapi",
+    "karate",
+    "qa",
+    "rest",
+    "swagger"
+  ],
+  "author": "Adrián Bustos Paz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/makenshikuro/alphonse/issues"
+  },
+  "homepage": "https://github.com/makenshikuro/alphonse#readme",
+  "dependencies": {
+    "@octokit/auth-basic": "^1.4.8",
+    "@octokit/rest": "^18.0.15",
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "configstore": "^5.0.1",
+    "figlet": "^1.5.0",
+    "inquirer": "^7.3.3",
+    "js-yaml": "^4.0.0",
+    "lodash": "^4.17.20",
+    "minimist": "^1.2.5",
+    "simple-git": "^2.31.0",
+    "touch": "^3.1.0"
+  }
+}
